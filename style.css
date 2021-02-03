@@ -1,0 +1,98 @@
+/* font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+body {
+  background-color: rgb(247, 249, 252);
+  color: rgb(10,10,10);
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(72, 135, 133)
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(108, 97, 76)
+  /* color: rgb(72, 58, 54) */
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 40px;
+}
+
+
+
+.container {
+  margin: auto;
+  width: 1000px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-lightgrey {
+  background-color: white;
+  border: solid;
+  border-color: rgb(245 245 245);
+  box-shadow: 2px 2px 4px rgb(245 245 245);
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 20px 60px 50px 60px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.link {
+  background-color: rgb(72, 135, 133);
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+.link:hover {
+  background-color: rgba(72, 135, 133, 0.8);
+}
+
+.social {
+  font-size: 40px;
+  color: lightgrey;
+}
+.social:hover {
+  color: darkgray;
+}
